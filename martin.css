@@ -1,0 +1,168 @@
+body {
+  font-family: 'Poiret One', cursive;
+}
+
+
+#sideImage {
+  margin: 0px 20px 0px 0px;
+  width: 200px;
+}
+
+#main {
+  background-color: white;
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+}
+
+.main{
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+#MartinsBirth{
+  float:right;
+}
+
+/*
+.allContent{
+  display: flex;
+}
+*/
+
+
+.imageColumn{
+  width: 25%;
+}
+
+.column{
+  width:240px;
+  float: left;
+  padding-right:10px;
+}
+
+.column img{
+  width: 100%;
+	height: auto;
+  padding-bottom: 20px;
+}
+
+footer {
+  position:static;
+   clear:both;
+   bottom: 0;
+ }
+
+ body{
+
+ }
+
+
+#columns {
+	column-width: 320px;
+	column-gap: 15px;
+	width: 90%;
+	max-width: 1100px;
+	margin: 50px auto;
+}
+
+div#columns .gallery {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+	column-break-inside: avoid;
+	display: inline-block;
+}
+div#columns .gallery img {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+#topPic{
+  width:100%;
+}
+
+div#columns:hover .gallery:not(:hover) {
+	opacity: 0.4;
+}
+
+#titleIndex{
+  color:white;
+}
+
+#indexInfo{
+  background-color: black;
+  color: white;
+  width: 300px;
+  margin-left: 345px;
+  margin-top:20px;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  vertical-align: middle
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+nav{
+
+  margin-left: 280px;
+  margin-right: 280px;
+
+}
+
+nav li {
+    float: left;
+    display: inline;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+/* Change the link color to underline on hover */
+nav li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#indexNav nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#indexNav nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+/* Change the link color to underline on hover */
+#indexNav nav li a:hover {
+    border-bottom: 2px solid white;
+}
